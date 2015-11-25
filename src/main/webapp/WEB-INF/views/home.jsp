@@ -9,12 +9,7 @@
             Welcome to 4DV611-server!  
         </h1>
         Main requests:<br><br>
-        <P>  GET_ALL_PROD = "/products";<br>
-            GET_PROD = "/products/{id}";<br>
-            CREATE_PROD = "/products/create";<br>
-            DELETE_PROD = "/products/delete/{id}";<br>
-            UPDATE_PROD = "/products/update/{id}";<br>
-
+        <P> 
             GET_ALL_TRACK = "/tracks";<br>
             GET_TRACK = "/tracks/{id}";<br>
             CREATE_TRACK = "/tracks/create";<br>
