@@ -6,7 +6,9 @@ package com.lnu.agile.controller;
 import java.util.concurrent.atomic.AtomicLong;
 
 import com.lnu.agile.model.Home;
+import java.util.Locale;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -27,8 +29,14 @@ public class MainController {
     }
 
     @RequestMapping("/greeting/test")
-    public Home greetingTest(@RequestParam(value="name", defaultValue="Test") String name) {
+    public Home greetingTest(@RequestParam(value = "name", defaultValue = "Test") String name) {
         return new Home(counter.incrementAndGet(),
                 String.format(template, name + "123"));
     }
+
+    /*@RequestMapping(value = "/")
+    public String home(Locale locale, Model model) {
+
+        return "homef";
+    } */
 }

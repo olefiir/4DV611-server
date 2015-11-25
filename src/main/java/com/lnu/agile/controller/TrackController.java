@@ -5,7 +5,7 @@
  */
 package com.lnu.agile.controller;
 
-import com.journaldev.spring.config.RestURIConstants;
+import com.lnu.agile.controller.config.RestURIConstants;
 import com.lnu.agile.json.FileParser;
 import com.lnu.agile.json.XmlToJsonParser;
 import com.lnu.agile.model.mapped.*;

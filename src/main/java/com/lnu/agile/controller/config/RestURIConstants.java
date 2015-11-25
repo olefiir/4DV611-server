@@ -1,4 +1,4 @@
-package com.journaldev.spring.config;
+package com.lnu.agile.controller.config;
 
 public class RestURIConstants {
 
