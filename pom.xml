@@ -123,12 +123,6 @@
             <version>4.7</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-web</artifactId>
-            <version>4.2.3.RELEASE</version>
-            <type>jar</type>
-        </dependency>
     </dependencies>
     <build>
         <plugins>

@@ -20,7 +20,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.CrossOrigin;
 
 /**
  *
@@ -32,7 +31,6 @@ public class TrackController {
     private String PATH = "classpath:trackInfoArray.xml";
     private static final Logger logger = LoggerFactory.getLogger(TrackController.class);
 
-    @CrossOrigin
     @RequestMapping(value = RestURIConstants.GET_ALL_TRACK, method = RequestMethod.GET)
     public TrackInfoArray getAllTracks() {
         try {
@@ -50,7 +48,6 @@ public class TrackController {
         }
     }
     
-    @CrossOrigin
     @RequestMapping(value = RestURIConstants.GET_TRACK, method = RequestMethod.GET)
     public @ResponseBody TrackInfo getTrack(@PathVariable("id") int trackId) {
         try {
