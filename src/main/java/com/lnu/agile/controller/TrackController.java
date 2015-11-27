@@ -5,7 +5,7 @@
  */
 package com.lnu.agile.controller;
 
-import com.lnu.agile.controller.config.RestURIConstants;
+import com.lnu.agile.config.RestURIConstants;
 import com.lnu.agile.json.FileParser;
 import com.lnu.agile.json.XmlToJsonParser;
 import com.lnu.agile.model.mapped.*;
@@ -31,7 +31,7 @@ public class TrackController {
     private String PATH = "classpath:trackInfoArray.xml";
     private static final Logger logger = LoggerFactory.getLogger(TrackController.class);
 
-    @RequestMapping(value = RestURIConstants.GET_ALL_TRACK, method = RequestMethod.GET)
+    @RequestMapping(value = RestURIConstants.GET_ALL_TRACK, method = RequestMethod.GET, headers="Accept=application/json")
     public TrackInfoArray getAllTracks() {
         try {
             logger.info("Start getAllTracks");
@@ -48,7 +48,7 @@ public class TrackController {
         }
     }
     
-    @RequestMapping(value = RestURIConstants.GET_TRACK, method = RequestMethod.GET)
+    @RequestMapping(value = RestURIConstants.GET_TRACK, method = RequestMethod.GET, headers="Accept=application/json")
     public @ResponseBody TrackInfo getTrack(@PathVariable("id") int trackId) {
         try {
             logger.info("Start getTracks. ID=" + trackId);

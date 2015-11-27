@@ -1,4 +1,4 @@
-package com.lnu.agile.controller.config;
+package com.lnu.agile.config;
 
 public class RestURIConstants {
 
