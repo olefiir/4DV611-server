@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TrackController {
     //trmporary location!
-    private String PATH = "classpath:trackInfoArray.xml";
+    private final String PATH = "classpath:trackInfoArray.xml";
     private static final Logger logger = LoggerFactory.getLogger(TrackController.class);
 
     @RequestMapping(value = RestURIConstants.GET_ALL_TRACK, method = RequestMethod.GET, headers="Accept=application/json")
@@ -51,7 +51,7 @@ public class TrackController {
     @RequestMapping(value = RestURIConstants.GET_TRACK, method = RequestMethod.GET, headers="Accept=application/json")
     public @ResponseBody TrackInfo getTrack(@PathVariable("id") int trackId) {
         try {
-            logger.info("Start getTracks. ID=" + trackId);
+            logger.info("Start getTracks. ID = " + trackId);
             Resource resource = new DefaultResourceLoader().getResource(PATH);
             
             FileParser parser = new XmlToJsonParser();

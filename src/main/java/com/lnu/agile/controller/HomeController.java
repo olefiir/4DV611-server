@@ -8,7 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * Handles requests for the Employee service.
+ * Handles requests for the Home Page
  */
 @Controller
 public class HomeController {
