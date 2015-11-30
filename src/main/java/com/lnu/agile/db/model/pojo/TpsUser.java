@@ -1,5 +1,5 @@
 package com.lnu.agile.db.model.pojo;
-// Generated Nov 29, 2015 11:37:03 PM by Hibernate Tools 4.3.1
+// Generated Nov 30, 2015 5:44:23 PM by Hibernate Tools 4.3.1
 
 
 
@@ -9,7 +9,7 @@ package com.lnu.agile.db.model.pojo;
 public class TpsUser  implements java.io.Serializable {
 
 
-     private int userid;
+     private Integer userid;
      private String userEmail;
      private Integer userStatus;
      private String userPassword;
@@ -20,12 +20,10 @@ public class TpsUser  implements java.io.Serializable {
     }
 
 	
-    public TpsUser(int userid, String userEmail) {
-        this.userid = userid;
+    public TpsUser(String userEmail) {
         this.userEmail = userEmail;
     }
-    public TpsUser(int userid, String userEmail, Integer userStatus, String userPassword, String userName, String userPhone) {
-       this.userid = userid;
+    public TpsUser(String userEmail, Integer userStatus, String userPassword, String userName, String userPhone) {
        this.userEmail = userEmail;
        this.userStatus = userStatus;
        this.userPassword = userPassword;
@@ -33,11 +31,11 @@ public class TpsUser  implements java.io.Serializable {
        this.userPhone = userPhone;
     }
    
-    public int getUserid() {
+    public Integer getUserid() {
         return this.userid;
     }
     
-    public void setUserid(int userid) {
+    public void setUserid(Integer userid) {
         this.userid = userid;
     }
     public String getUserEmail() {

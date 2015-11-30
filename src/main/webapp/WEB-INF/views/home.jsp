@@ -14,8 +14,16 @@
             GET_TRACK = "/tracks/{id}";<br>
             CREATE_TRACK = "/tracks/create";<br>
             DELETE_TRACK = "/tracks/delete/{id}";<br>
-            UPDATE_TRACK = "/tracks/update/{id}"; </P>
+            UPDATE_TRACK = "/tracks/update/{id}"; 
+        </P>
         
-        <a href="users.htm">User list</a>
+        <P>
+            <b>User account related:</b> <br>
+            
+            CREATE_USER = "/users/create/{email}/{password}/{confirmpassword}";<br>
+
+        </P> 
+            
+        
     </body>
 </html>

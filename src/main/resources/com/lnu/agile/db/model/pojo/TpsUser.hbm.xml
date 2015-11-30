@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated Nov 29, 2015 11:37:04 PM by Hibernate Tools 4.3.1 -->
-<hibernate-mapping auto-import="true">
+<!-- Generated Nov 30, 2015 5:44:23 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
     <class name="com.lnu.agile.db.model.pojo.TpsUser" table="tps_user" catalog="tipsters" optimistic-lock="version">
-        <id name="userid" type="int">
+        <id name="userid" type="java.lang.Integer">
             <column name="userid" />
-            <generator class="assigned" />
+            <generator class="identity" />
         </id>
         <property name="userEmail" type="string">
             <column name="user_email" length="50" not-null="true" />

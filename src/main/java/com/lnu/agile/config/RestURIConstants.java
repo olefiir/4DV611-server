@@ -21,6 +21,8 @@ public class RestURIConstants {
         public static final String UPDATE_TRACK = "/tracks/update/{id}";
         
         public static final String GET_ALL_USER = "/users";
-        public static final String CREATE_USER = "/users/create/enduser?email={email}";
+        public static final String CREATE_USER = "/users/create/{email}/{password}/{confirmPassword}";
+        
+        
         
 }
