@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Nov 29, 2015 11:37:04 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping auto-import="true">
+    <class name="com.lnu.agile.db.model.pojo.TpsUser" table="tps_user" catalog="tipsters" optimistic-lock="version">
+        <id name="userid" type="int">
+            <column name="userid" />
+            <generator class="assigned" />
+        </id>
+        <property name="userEmail" type="string">
+            <column name="user_email" length="50" not-null="true" />
+        </property>
+        <property name="userStatus" type="java.lang.Integer">
+            <column name="user_status" />
+        </property>
+        <property name="userPassword" type="string">
+            <column name="user_password" length="50" />
+        </property>
+        <property name="userName" type="string">
+            <column name="user_name" length="50" />
+        </property>
+        <property name="userPhone" type="string">
+            <column name="user_phone" length="50" />
+        </property>
+    </class>
+</hibernate-mapping>

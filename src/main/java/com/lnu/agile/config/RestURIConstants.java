@@ -19,4 +19,8 @@ public class RestURIConstants {
         public static final String CREATE_TRACK = "/tracks/create";
         public static final String DELETE_TRACK = "/tracks/delete/{id}";
         public static final String UPDATE_TRACK = "/tracks/update/{id}";
+        
+        public static final String GET_ALL_USER = "/users";
+        public static final String CREATE_USER = "/users/create/enduser?email={email}";
+        
 }
