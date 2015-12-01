@@ -17,7 +17,7 @@ import org.hibernate.Transaction;
  * @author Nils
  */
 public class TpsUserDAO {
-    public static List<TpsUser> layDS() {
+    public static List<TpsUser> listAllUsers() {
         List<TpsUser> lst = null;
         try {
             Session session = HibernateUtil.getSessionFactory().openSession();
@@ -33,14 +33,19 @@ public class TpsUserDAO {
         return lst;
     }
     
-    public static int insertUser(Object obj) {
+    public static int insertUser(TpsUser tpsuser) {
         try {
             Session session = HibernateUtil.getSessionFactory().openSession();
+            
+            String hql = "from TpsUser tu where tu.userEmail='"+tpsuser.getUserEmail()+"'";
+            Query query = session.createQuery(hql);
+            System.out.println("number of same emails: "+query.list().size());
+            if (query.list().size()!=0) {
+                session.close();
+                return 0;
+            } 
             Transaction tx = session.beginTransaction();
-            
-            
-            session.saveOrUpdate(obj);
-            
+            session.saveOrUpdate(tpsuser);
             tx.commit();
 
             session.close();

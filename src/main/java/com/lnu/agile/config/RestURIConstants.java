@@ -20,7 +20,8 @@ public class RestURIConstants {
         public static final String DELETE_TRACK = "/tracks/delete/{id}";
         public static final String UPDATE_TRACK = "/tracks/update/{id}";
         
-        public static final String GET_ALL_USER = "/users";
+        public static final String USER = "/users";         //get,post
+        public static final String USER_ID = "/users/{id}"; // three actions: put,get,delete
         public static final String CREATE_USER = "/users/create/{email}/{password}/{confirmPassword}";
         
         

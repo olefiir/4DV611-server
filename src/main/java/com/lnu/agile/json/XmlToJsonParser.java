@@ -7,6 +7,12 @@ package com.lnu.agile.json;
 
 import com.lnu.agile.model.mapped.TrackInfoArray;
 import java.io.File;
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.JAXBException;
@@ -25,14 +31,22 @@ public class XmlToJsonParser implements FileParser{
         try {
             JAXBContext jaxbContext = JAXBContext.newInstance(MODEL_PACKAGE);
             Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
+            
+            path = "http://178.62.191.16:8080/collector/collectorserver?ACTION=GETTRACKS&DATE=2015-11-17&ENDDATE=2015-11-30";
+            
+            URL obj = new URL(path);
 
-            JAXBElement<TrackInfoArray> trackElement = (JAXBElement<TrackInfoArray>) unmarshaller.unmarshal(new File(path));
+            JAXBElement<TrackInfoArray> trackElement = (JAXBElement<TrackInfoArray>) unmarshaller.unmarshal(obj);
             trackinfo = trackElement.getValue();
           
             unmarshaller.setEventHandler(new TrackValidationEventHandler());
         }
         catch (JAXBException e) {
             System.out.println(e);
+        } catch (MalformedURLException ex) {
+            Logger.getLogger(XmlToJsonParser.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(XmlToJsonParser.class.getName()).log(Level.SEVERE, null, ex);
         }
         return trackinfo;
     }

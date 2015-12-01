@@ -18,9 +18,11 @@
         </P>
         
         <P>
-            <b>User account related:</b> <br>
+            <b>User registration related:</b> <br>
             
-            CREATE_USER = "/users/create/{email}/{password}/{confirmpassword}";<br>
+            Create users; Get all users = "/users";<br>
+                Temporarily json parameters in order for test: email,password,confirmPassword
+                     respond: 0 failed; 1 successful
 
         </P> 
             

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <trackInfoArray>
-   <tracks length="37">
+   <tracks length="81">
       <trackInfo id="46186" date="2015-11-17 00:00:00.0 +0100" track="Bjerke" raceCount="5" trackId="78" nbrOfRaces="0">
          <bettypes length="5">
             <string>V5</string>
@@ -17,7 +17,7 @@
             <date>2015-11-17 13:39:02.0 +0100</date>
          </bettypeStart>
       </trackInfo>
-      <trackInfo id="46193" date="2015-11-17 00:00:00.0 +0100" track="?rebro" raceCount="11" trackId="32" nbrOfRaces="0">
+      <trackInfo id="46193" date="2015-11-17 00:00:00.0 +0100" track="Örebro" raceCount="11" trackId="32" nbrOfRaces="0">
          <bettypes length="8">
             <string>V64</string>
             <string>DD</string>
@@ -39,7 +39,7 @@
             <date>2015-11-17 18:14:31.0 +0100</date>
          </bettypeStart>
       </trackInfo>
-      <trackInfo id="46194" date="2015-11-17 00:00:00.0 +0100" track="J?gersro" raceCount="9" trackId="7" nbrOfRaces="0">
+      <trackInfo id="46194" date="2015-11-17 00:00:00.0 +0100" track="Jägersro" raceCount="9" trackId="7" nbrOfRaces="0">
          <bettypes length="7">
             <string>V4</string>
             <string>V5</string>
@@ -59,7 +59,7 @@
             <date>2015-11-17 17:29:57.0 +0100</date>
          </bettypeStart>
       </trackInfo>
-      <trackInfo id="46195" date="2015-11-17 00:00:00.0 +0100" track="?stersund" raceCount="9" trackId="33" nbrOfRaces="0">
+      <trackInfo id="46195" date="2015-11-17 00:00:00.0 +0100" track="Östersund" raceCount="9" trackId="33" nbrOfRaces="0">
          <bettypes length="8">
             <string>LD</string>
             <string>V4</string>
@@ -97,7 +97,7 @@
             <date>2015-11-17 19:54:03.0 +0100</date>
          </bettypeStart>
       </trackInfo>
-      <trackInfo id="46196" date="2015-11-18 00:00:00.0 +0100" track="?by" raceCount="9" trackId="6" nbrOfRaces="0">
+      <trackInfo id="46196" date="2015-11-18 00:00:00.0 +0100" track="Åby" raceCount="9" trackId="6" nbrOfRaces="0">
          <bettypes length="8">
             <string>V86</string>
             <string>DD</string>
@@ -117,7 +117,7 @@
             <date>2015-11-18 18:26:42.0 +0100</date>
          </bettypeStart>
       </trackInfo>
-      <trackInfo id="46197" date="2015-11-18 00:00:00.0 +0100" track="T?by Galopp" raceCount="9" trackId="35" nbrOfRaces="0">
+      <trackInfo id="46197" date="2015-11-18 00:00:00.0 +0100" track="Täby Galopp" raceCount="9" trackId="35" nbrOfRaces="0">
          <bettypes length="8">
             <string>LD</string>
             <string>V4</string>
@@ -173,17 +173,7 @@
             <date>2015-11-18 18:14:42.0 +0100</date>
          </bettypeStart>
       </trackInfo>
-      <trackInfo id="46200" date="2015-11-18 00:00:00.0 +0100" track="Solvalla/?by" raceCount="2" trackId="40" nbrOfRaces="0">
-         <bettypes length="2">
-            <string>V86</string>
-            <string>DD</string>
-         </bettypes>
-         <bettypeStart length="2">
-            <date>2015-11-18 20:30:00.0 +0100</date>
-            <date>2015-11-18 21:40:00.0 +0100</date>
-         </bettypeStart>
-      </trackInfo>
-      <trackInfo id="46203" date="2015-11-18 00:00:00.0 +0100" track="Nyk?bing" raceCount="8" trackId="54" nbrOfRaces="0">
+      <trackInfo id="46203" date="2015-11-18 00:00:00.0 +0100" track="Nyköbing" raceCount="8" trackId="54" nbrOfRaces="0">
          <bettypes length="6">
             <string>V4</string>
             <string>V5</string>
@@ -201,7 +191,17 @@
             <date>2015-11-18 15:14:24.0 +0100</date>
          </bettypeStart>
       </trackInfo>
-      <trackInfo id="46204" date="2015-11-19 00:00:00.0 +0100" track="Bergs?ker" raceCount="11" trackId="9" nbrOfRaces="0">
+      <trackInfo id="46308" date="2015-11-18 00:00:00.0 +0100" track="Solvalla/Åby" raceCount="2" trackId="40" nbrOfRaces="0">
+         <bettypes length="2">
+            <string>V86</string>
+            <string>DD</string>
+         </bettypes>
+         <bettypeStart length="2">
+            <date>2015-11-18 20:29:45.0 +0100</date>
+            <date>2015-11-18 21:39:43.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46204" date="2015-11-19 00:00:00.0 +0100" track="Bergsåker" raceCount="11" trackId="9" nbrOfRaces="0">
          <bettypes length="8">
             <string>V64</string>
             <string>DD</string>
@@ -213,14 +213,14 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="8">
-            <date>2015-11-19 19:25:00.0 +0100</date>
-            <date>2015-11-19 20:53:00.0 +0100</date>
-            <date>2015-11-19 20:09:00.0 +0100</date>
-            <date>2015-11-19 21:13:00.0 +0100</date>
-            <date>2015-11-19 20:31:00.0 +0100</date>
-            <date>2015-11-19 18:15:00.0 +0100</date>
-            <date>2015-11-19 18:15:00.0 +0100</date>
-            <date>2015-11-19 18:15:00.0 +0100</date>
+            <date>2015-11-19 19:24:36.0 +0100</date>
+            <date>2015-11-19 20:52:41.0 +0100</date>
+            <date>2015-11-19 20:08:35.0 +0100</date>
+            <date>2015-11-19 21:12:31.0 +0100</date>
+            <date>2015-11-19 20:30:38.0 +0100</date>
+            <date>2015-11-19 18:14:39.0 +0100</date>
+            <date>2015-11-19 18:14:39.0 +0100</date>
+            <date>2015-11-19 18:14:39.0 +0100</date>
          </bettypeStart>
       </trackInfo>
       <trackInfo id="46205" date="2015-11-19 00:00:00.0 +0100" track="Romme" raceCount="10" trackId="23" nbrOfRaces="0">
@@ -235,14 +235,14 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="8">
-            <date>2015-11-19 12:40:00.0 +0100</date>
-            <date>2015-11-19 12:19:04.0 +0100</date>
-            <date>2015-11-19 14:03:00.0 +0100</date>
+            <date>2015-11-19 12:39:25.0 +0100</date>
+            <date>2015-11-19 12:19:36.0 +0100</date>
+            <date>2015-11-19 14:04:04.0 +0100</date>
             <date>2015-11-19 14:39:00.0 +0100</date>
-            <date>2015-11-19 13:20:00.0 +0100</date>
-            <date>2015-11-19 12:19:04.0 +0100</date>
-            <date>2015-11-19 12:19:04.0 +0100</date>
-            <date>2015-11-19 12:19:04.0 +0100</date>
+            <date>2015-11-19 13:19:37.0 +0100</date>
+            <date>2015-11-19 12:19:36.0 +0100</date>
+            <date>2015-11-19 12:19:36.0 +0100</date>
+            <date>2015-11-19 12:19:36.0 +0100</date>
          </bettypeStart>
       </trackInfo>
       <trackInfo id="46206" date="2015-11-19 00:00:00.0 +0100" track="Axevalla" raceCount="10" trackId="8" nbrOfRaces="0">
@@ -256,13 +256,13 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="7">
-            <date>2015-11-19 19:11:00.0 +0100</date>
-            <date>2015-11-19 19:58:00.0 +0100</date>
-            <date>2015-11-19 21:03:00.0 +0100</date>
-            <date>2015-11-19 20:20:00.0 +0100</date>
-            <date>2015-11-19 18:25:00.0 +0100</date>
-            <date>2015-11-19 18:25:00.0 +0100</date>
-            <date>2015-11-19 18:25:00.0 +0100</date>
+            <date>2015-11-19 19:10:38.0 +0100</date>
+            <date>2015-11-19 20:02:09.0 +0100</date>
+            <date>2015-11-19 21:03:13.0 +0100</date>
+            <date>2015-11-19 20:22:54.0 +0100</date>
+            <date>2015-11-19 18:25:41.0 +0100</date>
+            <date>2015-11-19 18:25:41.0 +0100</date>
+            <date>2015-11-19 18:25:41.0 +0100</date>
          </bettypeStart>
       </trackInfo>
       <trackInfo id="46207" date="2015-11-19 00:00:00.0 +0100" track="Bjerke" raceCount="5" trackId="78" nbrOfRaces="0">
@@ -274,11 +274,11 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="5">
-            <date>2015-11-19 13:40:00.0 +0100</date>
-            <date>2015-11-19 13:40:00.0 +0100</date>
-            <date>2015-11-19 13:40:00.0 +0100</date>
-            <date>2015-11-19 13:40:00.0 +0100</date>
-            <date>2015-11-19 13:40:00.0 +0100</date>
+            <date>2015-11-19 13:39:01.0 +0100</date>
+            <date>2015-11-19 13:39:01.0 +0100</date>
+            <date>2015-11-19 13:39:01.0 +0100</date>
+            <date>2015-11-19 13:39:01.0 +0100</date>
+            <date>2015-11-19 13:39:01.0 +0100</date>
          </bettypeStart>
       </trackInfo>
       <trackInfo id="46214" date="2015-11-19 00:00:00.0 +0100" track="Sydafrika" raceCount="9" trackId="89" nbrOfRaces="0">
@@ -289,10 +289,10 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="4">
-            <date>2015-11-19 11:14:04.0 +0100</date>
-            <date>2015-11-19 11:14:04.0 +0100</date>
-            <date>2015-11-19 11:14:04.0 +0100</date>
-            <date>2015-11-19 11:14:04.0 +0100</date>
+            <date>2015-11-19 11:14:07.0 +0100</date>
+            <date>2015-11-19 11:14:07.0 +0100</date>
+            <date>2015-11-19 11:14:07.0 +0100</date>
+            <date>2015-11-19 11:14:07.0 +0100</date>
          </bettypeStart>
       </trackInfo>
       <trackInfo id="46220" date="2015-11-19 00:00:00.0 +0100" track="Vincennes" raceCount="9" trackId="63" nbrOfRaces="0">
@@ -304,8 +304,8 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="5">
-            <date>2015-11-19 14:05:00.0 +0100</date>
-            <date>2015-11-19 15:05:00.0 +0100</date>
+            <date>2015-11-19 14:04:01.0 +0100</date>
+            <date>2015-11-19 15:04:45.0 +0100</date>
             <date>2015-11-19 11:59:02.0 +0100</date>
             <date>2015-11-19 11:59:02.0 +0100</date>
             <date>2015-11-19 11:59:02.0 +0100</date>
@@ -325,7 +325,7 @@
             <date>2015-11-19 08:12:24.0 +0100</date>
          </bettypeStart>
       </trackInfo>
-      <trackInfo id="46202" date="2015-11-20 00:00:00.0 +0100" track="Jyv?skyl?" raceCount="6" trackId="59" nbrOfRaces="0">
+      <trackInfo id="46202" date="2015-11-20 00:00:00.0 +0100" track="Jyväskylä" raceCount="6" trackId="59" nbrOfRaces="0">
          <bettypes length="4">
             <string>T</string>
             <string>TV</string>
@@ -333,10 +333,10 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="4">
-            <date>2015-11-20 12:01:00.0 +0100</date>
-            <date>2015-11-20 11:01:00.0 +0100</date>
-            <date>2015-11-20 11:01:00.0 +0100</date>
-            <date>2015-11-20 11:01:00.0 +0100</date>
+            <date>2015-11-20 12:00:18.0 +0100</date>
+            <date>2015-11-20 11:00:37.0 +0100</date>
+            <date>2015-11-20 11:00:37.0 +0100</date>
+            <date>2015-11-20 11:00:37.0 +0100</date>
          </bettypeStart>
       </trackInfo>
       <trackInfo id="46211" date="2015-11-20 00:00:00.0 +0100" track="Opland-Biri" raceCount="8" trackId="77" nbrOfRaces="0">
@@ -348,14 +348,14 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="5">
-            <date>2015-11-20 19:58:00.0 +0100</date>
-            <date>2015-11-20 18:50:00.0 +0100</date>
-            <date>2015-11-20 18:50:00.0 +0100</date>
-            <date>2015-11-20 18:50:00.0 +0100</date>
-            <date>2015-11-20 18:50:00.0 +0100</date>
+            <date>2015-11-20 19:57:09.0 +0100</date>
+            <date>2015-11-20 18:49:09.0 +0100</date>
+            <date>2015-11-20 18:49:09.0 +0100</date>
+            <date>2015-11-20 18:49:09.0 +0100</date>
+            <date>2015-11-20 18:49:09.0 +0100</date>
          </bettypeStart>
       </trackInfo>
-      <trackInfo id="46212" date="2015-11-20 00:00:00.0 +0100" track="?vrevoll" raceCount="7" trackId="79" nbrOfRaces="0">
+      <trackInfo id="46212" date="2015-11-20 00:00:00.0 +0100" track="Övrevoll" raceCount="7" trackId="79" nbrOfRaces="0">
          <bettypes length="6">
             <string>V4</string>
             <string>V5</string>
@@ -365,15 +365,15 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="6">
-            <date>2015-11-20 16:40:00.0 +0100</date>
-            <date>2015-11-20 16:00:00.0 +0100</date>
-            <date>2015-11-20 15:35:00.0 +0100</date>
-            <date>2015-11-20 15:35:00.0 +0100</date>
-            <date>2015-11-20 15:35:00.0 +0100</date>
-            <date>2015-11-20 15:35:00.0 +0100</date>
+            <date>2015-11-20 16:43:43.0 +0100</date>
+            <date>2015-11-20 16:00:39.0 +0100</date>
+            <date>2015-11-20 15:34:46.0 +0100</date>
+            <date>2015-11-20 15:34:46.0 +0100</date>
+            <date>2015-11-20 15:34:46.0 +0100</date>
+            <date>2015-11-20 15:34:46.0 +0100</date>
          </bettypeStart>
       </trackInfo>
-      <trackInfo id="46215" date="2015-11-20 00:00:00.0 +0100" track="?lborg" raceCount="10" trackId="54" nbrOfRaces="0">
+      <trackInfo id="46215" date="2015-11-20 00:00:00.0 +0100" track="Ålborg" raceCount="10" trackId="54" nbrOfRaces="0">
          <bettypes length="6">
             <string>V4</string>
             <string>V5</string>
@@ -383,12 +383,12 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="6">
-            <date>2015-11-20 16:43:00.0 +0100</date>
-            <date>2015-11-20 16:07:00.0 +0100</date>
-            <date>2015-11-20 15:45:00.0 +0100</date>
-            <date>2015-11-20 15:45:00.0 +0100</date>
-            <date>2015-11-20 15:45:00.0 +0100</date>
-            <date>2015-11-20 15:45:00.0 +0100</date>
+            <date>2015-11-20 16:46:04.0 +0100</date>
+            <date>2015-11-20 16:06:14.0 +0100</date>
+            <date>2015-11-20 15:44:11.0 +0100</date>
+            <date>2015-11-20 15:44:11.0 +0100</date>
+            <date>2015-11-20 15:44:11.0 +0100</date>
+            <date>2015-11-20 15:44:11.0 +0100</date>
          </bettypeStart>
       </trackInfo>
       <trackInfo id="46216" date="2015-11-20 00:00:00.0 +0100" track="Solvalla" raceCount="9" trackId="5" nbrOfRaces="0">
@@ -403,14 +403,14 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="8">
-            <date>2015-11-20 12:45:00.0 +0100</date>
-            <date>2015-11-20 13:45:00.0 +0100</date>
-            <date>2015-11-20 13:25:00.0 +0100</date>
-            <date>2015-11-20 14:46:00.0 +0100</date>
-            <date>2015-11-20 14:27:00.0 +0100</date>
-            <date>2015-11-20 12:45:00.0 +0100</date>
-            <date>2015-11-20 12:45:00.0 +0100</date>
-            <date>2015-11-20 12:45:00.0 +0100</date>
+            <date>2015-11-20 12:44:53.0 +0100</date>
+            <date>2015-11-20 13:47:13.0 +0100</date>
+            <date>2015-11-20 13:24:40.0 +0100</date>
+            <date>2015-11-20 14:45:42.0 +0100</date>
+            <date>2015-11-20 14:29:38.0 +0100</date>
+            <date>2015-11-20 12:44:53.0 +0100</date>
+            <date>2015-11-20 12:44:53.0 +0100</date>
+            <date>2015-11-20 12:44:53.0 +0100</date>
          </bettypeStart>
       </trackInfo>
       <trackInfo id="46218" date="2015-11-20 00:00:00.0 +0100" track="Kalmar" raceCount="12" trackId="19" nbrOfRaces="0">
@@ -425,14 +425,14 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="8">
-            <date>2015-11-20 19:25:00.0 +0100</date>
-            <date>2015-11-20 20:53:00.0 +0100</date>
-            <date>2015-11-20 20:09:00.0 +0100</date>
-            <date>2015-11-20 21:31:00.0 +0100</date>
-            <date>2015-11-20 20:31:00.0 +0100</date>
-            <date>2015-11-20 18:15:00.0 +0100</date>
-            <date>2015-11-20 18:15:00.0 +0100</date>
-            <date>2015-11-20 18:15:00.0 +0100</date>
+            <date>2015-11-20 19:24:40.0 +0100</date>
+            <date>2015-11-20 20:52:35.0 +0100</date>
+            <date>2015-11-20 20:08:35.0 +0100</date>
+            <date>2015-11-20 21:33:31.0 +0100</date>
+            <date>2015-11-20 20:30:34.0 +0100</date>
+            <date>2015-11-20 18:14:36.0 +0100</date>
+            <date>2015-11-20 18:14:36.0 +0100</date>
+            <date>2015-11-20 18:14:36.0 +0100</date>
          </bettypeStart>
       </trackInfo>
       <trackInfo id="46230" date="2015-11-20 00:00:00.0 +0100" track="Vincennes" raceCount="8" trackId="63" nbrOfRaces="0">
@@ -444,11 +444,25 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="5">
-            <date>2015-11-20 19:55:00.0 +0100</date>
-            <date>2015-11-20 20:57:00.0 +0100</date>
-            <date>2015-11-20 19:55:00.0 +0100</date>
-            <date>2015-11-20 19:55:00.0 +0100</date>
-            <date>2015-11-20 19:55:00.0 +0100</date>
+            <date>2015-11-20 19:55:47.0 +0100</date>
+            <date>2015-11-20 21:00:02.0 +0100</date>
+            <date>2015-11-20 19:55:47.0 +0100</date>
+            <date>2015-11-20 19:55:47.0 +0100</date>
+            <date>2015-11-20 19:55:47.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46231" date="2015-11-20 00:00:00.0 +0100" track="Australien" raceCount="11" trackId="51" nbrOfRaces="0">
+         <bettypes length="4">
+            <string>V4</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="4">
+            <date>2015-11-20 08:28:16.0 +0100</date>
+            <date>2015-11-20 08:01:58.0 +0100</date>
+            <date>2015-11-20 08:01:58.0 +0100</date>
+            <date>2015-11-20 08:01:58.0 +0100</date>
          </bettypeStart>
       </trackInfo>
       <trackInfo id="46210" date="2015-11-21 00:00:00.0 +0100" track="Bjerke" raceCount="12" trackId="78" nbrOfRaces="0">
@@ -465,19 +479,19 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="10">
-            <date>2015-11-21 16:20:00.0 +0100</date>
-            <date>2015-11-21 18:20:00.0 +0100</date>
-            <date>2015-11-21 15:08:00.0 +0100</date>
-            <date>2015-11-21 14:45:00.0 +0100</date>
-            <date>2015-11-21 17:05:00.0 +0100</date>
-            <date>2015-11-21 18:20:00.0 +0100</date>
-            <date>2015-11-21 14:45:00.0 +0100</date>
-            <date>2015-11-21 14:45:00.0 +0100</date>
-            <date>2015-11-21 14:45:00.0 +0100</date>
-            <date>2015-11-21 14:45:00.0 +0100</date>
+            <date>2015-11-21 16:19:06.0 +0100</date>
+            <date>2015-11-21 18:19:05.0 +0100</date>
+            <date>2015-11-21 15:06:59.0 +0100</date>
+            <date>2015-11-21 14:44:14.0 +0100</date>
+            <date>2015-11-21 17:06:11.0 +0100</date>
+            <date>2015-11-21 18:19:05.0 +0100</date>
+            <date>2015-11-21 14:44:14.0 +0100</date>
+            <date>2015-11-21 14:44:14.0 +0100</date>
+            <date>2015-11-21 14:44:14.0 +0100</date>
+            <date>2015-11-21 14:44:14.0 +0100</date>
          </bettypeStart>
       </trackInfo>
-      <trackInfo id="46217" date="2015-11-21 00:00:00.0 +0100" track="Bergs?ker" raceCount="10" trackId="9" nbrOfRaces="0">
+      <trackInfo id="46217" date="2015-11-21 00:00:00.0 +0100" track="Bergsåker" raceCount="10" trackId="9" nbrOfRaces="0">
          <bettypes length="7">
             <string>V4</string>
             <string>V5</string>
@@ -488,13 +502,13 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="7">
-            <date>2015-11-21 12:45:00.0 +0100</date>
-            <date>2015-11-21 12:00:00.0 +0100</date>
-            <date>2015-11-21 13:50:00.0 +0100</date>
-            <date>2015-11-21 13:07:00.0 +0100</date>
-            <date>2015-11-21 11:15:00.0 +0100</date>
-            <date>2015-11-21 11:15:00.0 +0100</date>
-            <date>2015-11-21 11:15:00.0 +0100</date>
+            <date>2015-11-21 12:44:29.0 +0100</date>
+            <date>2015-11-21 11:59:25.0 +0100</date>
+            <date>2015-11-21 13:49:14.0 +0100</date>
+            <date>2015-11-21 13:06:19.0 +0100</date>
+            <date>2015-11-21 11:17:49.0 +0100</date>
+            <date>2015-11-21 11:17:49.0 +0100</date>
+            <date>2015-11-21 11:17:49.0 +0100</date>
          </bettypeStart>
       </trackInfo>
       <trackInfo id="46219" date="2015-11-21 00:00:00.0 +0100" track="Eskilstuna" raceCount="10" trackId="14" nbrOfRaces="0">
@@ -508,13 +522,13 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="7">
-            <date>2015-11-21 19:40:00.0 +0100</date>
-            <date>2015-11-21 20:20:00.0 +0100</date>
-            <date>2015-11-21 21:20:00.0 +0100</date>
-            <date>2015-11-21 20:40:00.0 +0100</date>
-            <date>2015-11-21 18:55:00.0 +0100</date>
-            <date>2015-11-21 18:55:00.0 +0100</date>
-            <date>2015-11-21 18:55:00.0 +0100</date>
+            <date>2015-11-21 19:40:11.0 +0100</date>
+            <date>2015-11-21 20:20:47.0 +0100</date>
+            <date>2015-11-21 21:19:48.0 +0100</date>
+            <date>2015-11-21 20:40:05.0 +0100</date>
+            <date>2015-11-21 18:55:23.0 +0100</date>
+            <date>2015-11-21 18:55:23.0 +0100</date>
+            <date>2015-11-21 18:55:23.0 +0100</date>
          </bettypeStart>
       </trackInfo>
       <trackInfo id="46221" date="2015-11-21 00:00:00.0 +0100" track="Harstad" raceCount="8" trackId="77" nbrOfRaces="0">
@@ -526,14 +540,30 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="5">
-            <date>2015-11-21 20:10:00.0 +0100</date>
-            <date>2015-11-21 19:10:00.0 +0100</date>
-            <date>2015-11-21 19:10:00.0 +0100</date>
-            <date>2015-11-21 19:10:00.0 +0100</date>
-            <date>2015-11-21 19:10:00.0 +0100</date>
+            <date>2015-11-21 20:09:17.0 +0100</date>
+            <date>2015-11-21 19:11:25.0 +0100</date>
+            <date>2015-11-21 19:11:25.0 +0100</date>
+            <date>2015-11-21 19:11:25.0 +0100</date>
+            <date>2015-11-21 19:11:25.0 +0100</date>
          </bettypeStart>
       </trackInfo>
-      <trackInfo id="46213" date="2015-11-22 00:00:00.0 +0100" track="J?gersro Galopp" raceCount="9" trackId="34" nbrOfRaces="0">
+      <trackInfo id="46240" date="2015-11-21 00:00:00.0 +0100" track="Vincennes" raceCount="9" trackId="63" nbrOfRaces="0">
+         <bettypes length="5">
+            <string>V4</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="5">
+            <date>2015-11-21 15:08:39.0 +0100</date>
+            <date>2015-11-21 15:08:39.0 +0100</date>
+            <date>2015-11-21 13:29:18.0 +0100</date>
+            <date>2015-11-21 13:29:18.0 +0100</date>
+            <date>2015-11-21 13:29:18.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46213" date="2015-11-22 00:00:00.0 +0100" track="Jägersro Galopp" raceCount="9" trackId="34" nbrOfRaces="0">
          <bettypes length="8">
             <string>LD</string>
             <string>V4</string>
@@ -546,16 +576,16 @@
          </bettypes>
          <bettypeStart length="8">
             <date>2015-11-22 13:05:00.0 +0100</date>
-            <date>2015-11-22 12:45:00.0 +0100</date>
+            <date>2015-11-22 13:05:00.0 +0100</date>
             <date>2015-11-22 14:14:00.0 +0100</date>
             <date>2015-11-22 14:59:00.0 +0100</date>
             <date>2015-11-22 13:45:00.0 +0100</date>
-            <date>2015-11-22 12:45:00.0 +0100</date>
-            <date>2015-11-22 12:45:00.0 +0100</date>
-            <date>2015-11-22 12:45:00.0 +0100</date>
+            <date>2015-11-22 13:05:00.0 +0100</date>
+            <date>2015-11-22 13:05:00.0 +0100</date>
+            <date>2015-11-22 13:05:00.0 +0100</date>
          </bettypeStart>
       </trackInfo>
-      <trackInfo id="46222" date="2015-11-22 00:00:00.0 +0100" track="S?rlandet" raceCount="8" trackId="77" nbrOfRaces="0">
+      <trackInfo id="46222" date="2015-11-22 00:00:00.0 +0100" track="Sörlandet" raceCount="8" trackId="77" nbrOfRaces="0">
          <bettypes length="6">
             <string>V65</string>
             <string>V5</string>
@@ -565,12 +595,12 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="6">
-            <date>2015-11-22 18:00:00.0 +0100</date>
-            <date>2015-11-22 19:05:00.0 +0100</date>
-            <date>2015-11-22 18:00:00.0 +0100</date>
-            <date>2015-11-22 18:00:00.0 +0100</date>
-            <date>2015-11-22 18:00:00.0 +0100</date>
-            <date>2015-11-22 18:00:00.0 +0100</date>
+            <date>2015-11-22 17:59:20.0 +0100</date>
+            <date>2015-11-22 19:04:45.0 +0100</date>
+            <date>2015-11-22 17:59:20.0 +0100</date>
+            <date>2015-11-22 17:59:20.0 +0100</date>
+            <date>2015-11-22 17:59:20.0 +0100</date>
+            <date>2015-11-22 17:59:20.0 +0100</date>
          </bettypeStart>
       </trackInfo>
       <trackInfo id="46225" date="2015-11-22 00:00:00.0 +0100" track="Skive" raceCount="12" trackId="54" nbrOfRaces="0">
@@ -583,15 +613,15 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="6">
-            <date>2015-11-22 16:27:00.0 +0100</date>
-            <date>2015-11-22 15:43:00.0 +0100</date>
-            <date>2015-11-22 00:00:00.0 +0100</date>
-            <date>2015-11-22 00:00:00.0 +0100</date>
-            <date>2015-11-22 00:00:00.0 +0100</date>
-            <date>2015-11-22 00:00:00.0 +0100</date>
+            <date>2015-11-22 16:27:11.0 +0100</date>
+            <date>2015-11-22 15:41:58.0 +0100</date>
+            <date>2015-11-22 14:55:23.0 +0100</date>
+            <date>2015-11-22 14:55:23.0 +0100</date>
+            <date>2015-11-22 14:55:23.0 +0100</date>
+            <date>2015-11-22 14:55:23.0 +0100</date>
          </bettypeStart>
       </trackInfo>
-      <trackInfo id="46229" date="2015-11-22 00:00:00.0 +0100" track="?by" raceCount="11" trackId="6" nbrOfRaces="0">
+      <trackInfo id="46229" date="2015-11-22 00:00:00.0 +0100" track="Åby" raceCount="11" trackId="6" nbrOfRaces="0">
          <bettypes length="8">
             <string>V64</string>
             <string>DD</string>
@@ -603,17 +633,17 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="8">
-            <date>2015-11-22 15:10:00.0 +0100</date>
-            <date>2015-11-22 16:38:00.0 +0100</date>
-            <date>2015-11-22 15:54:00.0 +0100</date>
-            <date>2015-11-22 17:00:00.0 +0100</date>
-            <date>2015-11-22 16:16:00.0 +0100</date>
-            <date>2015-11-22 14:00:00.0 +0100</date>
-            <date>2015-11-22 14:00:00.0 +0100</date>
-            <date>2015-11-22 14:00:00.0 +0100</date>
+            <date>2015-11-22 15:10:35.0 +0100</date>
+            <date>2015-11-22 16:37:47.0 +0100</date>
+            <date>2015-11-22 15:53:15.0 +0100</date>
+            <date>2015-11-22 16:59:44.0 +0100</date>
+            <date>2015-11-22 16:15:45.0 +0100</date>
+            <date>2015-11-22 13:59:52.0 +0100</date>
+            <date>2015-11-22 13:59:52.0 +0100</date>
+            <date>2015-11-22 13:59:52.0 +0100</date>
          </bettypeStart>
       </trackInfo>
-      <trackInfo id="46226" date="2015-11-23 00:00:00.0 +0100" track="G?vle" raceCount="11" trackId="16" nbrOfRaces="0">
+      <trackInfo id="46226" date="2015-11-23 00:00:00.0 +0100" track="Gävle" raceCount="11" trackId="16" nbrOfRaces="0">
          <bettypes length="8">
             <string>V64</string>
             <string>DD</string>
@@ -625,17 +655,17 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="8">
-            <date>2015-11-23 19:25:00.0 +0100</date>
-            <date>2015-11-23 20:53:00.0 +0100</date>
-            <date>2015-11-23 20:09:00.0 +0100</date>
-            <date>2015-11-23 21:13:00.0 +0100</date>
-            <date>2015-11-23 20:31:00.0 +0100</date>
-            <date>2015-11-23 18:15:00.0 +0100</date>
-            <date>2015-11-23 18:15:00.0 +0100</date>
-            <date>2015-11-23 18:15:00.0 +0100</date>
+            <date>2015-11-23 19:24:46.0 +0100</date>
+            <date>2015-11-23 20:52:57.0 +0100</date>
+            <date>2015-11-23 20:08:40.0 +0100</date>
+            <date>2015-11-23 21:12:47.0 +0100</date>
+            <date>2015-11-23 20:32:13.0 +0100</date>
+            <date>2015-11-23 18:15:15.0 +0100</date>
+            <date>2015-11-23 18:15:15.0 +0100</date>
+            <date>2015-11-23 18:15:15.0 +0100</date>
          </bettypeStart>
       </trackInfo>
-      <trackInfo id="46227" date="2015-11-23 00:00:00.0 +0100" track="F?rjestad" raceCount="10" trackId="15" nbrOfRaces="0">
+      <trackInfo id="46227" date="2015-11-23 00:00:00.0 +0100" track="Färjestad" raceCount="10" trackId="15" nbrOfRaces="0">
          <bettypes length="8">
             <string>LD</string>
             <string>V4</string>
@@ -647,14 +677,14 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="8">
-            <date>2015-11-23 12:40:00.0 +0100</date>
-            <date>2015-11-23 12:20:00.0 +0100</date>
-            <date>2015-11-23 14:03:00.0 +0100</date>
-            <date>2015-11-23 14:39:00.0 +0100</date>
-            <date>2015-11-23 13:20:00.0 +0100</date>
-            <date>2015-11-23 12:20:00.0 +0100</date>
-            <date>2015-11-23 12:20:00.0 +0100</date>
-            <date>2015-11-23 12:20:00.0 +0100</date>
+            <date>2015-11-23 12:39:29.0 +0100</date>
+            <date>2015-11-23 12:19:33.0 +0100</date>
+            <date>2015-11-23 14:02:19.0 +0100</date>
+            <date>2015-11-23 14:40:53.0 +0100</date>
+            <date>2015-11-23 13:19:38.0 +0100</date>
+            <date>2015-11-23 12:19:33.0 +0100</date>
+            <date>2015-11-23 12:19:33.0 +0100</date>
+            <date>2015-11-23 12:19:33.0 +0100</date>
          </bettypeStart>
       </trackInfo>
       <trackInfo id="46228" date="2015-11-23 00:00:00.0 +0100" track="Halmstad" raceCount="10" trackId="18" nbrOfRaces="0">
@@ -668,13 +698,43 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="7">
-            <date>2015-11-23 19:11:00.0 +0100</date>
-            <date>2015-11-23 19:58:00.0 +0100</date>
-            <date>2015-11-23 21:03:00.0 +0100</date>
-            <date>2015-11-23 20:20:00.0 +0100</date>
-            <date>2015-11-23 18:25:00.0 +0100</date>
-            <date>2015-11-23 18:25:00.0 +0100</date>
-            <date>2015-11-23 18:25:00.0 +0100</date>
+            <date>2015-11-23 19:22:36.0 +0100</date>
+            <date>2015-11-23 20:02:27.0 +0100</date>
+            <date>2015-11-23 21:03:26.0 +0100</date>
+            <date>2015-11-23 20:22:34.0 +0100</date>
+            <date>2015-11-23 18:25:42.0 +0100</date>
+            <date>2015-11-23 18:25:42.0 +0100</date>
+            <date>2015-11-23 18:25:42.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46242" date="2015-11-23 00:00:00.0 +0100" track="Sydafrika" raceCount="8" trackId="89" nbrOfRaces="0">
+         <bettypes length="4">
+            <string>T</string>
+            <string>K</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="4">
+            <date>2015-11-23 11:54:22.0 +0100</date>
+            <date>2015-11-23 11:54:22.0 +0100</date>
+            <date>2015-11-23 11:54:22.0 +0100</date>
+            <date>2015-11-23 11:54:22.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46248" date="2015-11-23 00:00:00.0 +0100" track="Vincennes" raceCount="9" trackId="63" nbrOfRaces="0">
+         <bettypes length="5">
+            <string>V4</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="5">
+            <date>2015-11-23 13:49:28.0 +0100</date>
+            <date>2015-11-23 13:49:28.0 +0100</date>
+            <date>2015-11-23 13:14:01.0 +0100</date>
+            <date>2015-11-23 13:14:01.0 +0100</date>
+            <date>2015-11-23 13:14:01.0 +0100</date>
          </bettypeStart>
       </trackInfo>
       <trackInfo id="46224" date="2015-11-24 00:00:00.0 +0100" track="Bjerke" raceCount="5" trackId="78" nbrOfRaces="0">
@@ -686,11 +746,747 @@
             <string>P</string>
          </bettypes>
          <bettypeStart length="5">
-            <date>2015-11-24 13:40:00.0 +0100</date>
-            <date>2015-11-24 13:40:00.0 +0100</date>
-            <date>2015-11-24 13:40:00.0 +0100</date>
-            <date>2015-11-24 13:40:00.0 +0100</date>
-            <date>2015-11-24 13:40:00.0 +0100</date>
+            <date>2015-11-24 13:39:04.0 +0100</date>
+            <date>2015-11-24 13:39:04.0 +0100</date>
+            <date>2015-11-24 13:39:04.0 +0100</date>
+            <date>2015-11-24 13:39:04.0 +0100</date>
+            <date>2015-11-24 13:39:04.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46232" date="2015-11-24 00:00:00.0 +0100" track="Jägersro" raceCount="9" trackId="7" nbrOfRaces="0">
+         <bettypes length="7">
+            <string>V4</string>
+            <string>V5</string>
+            <string>V3</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="7">
+            <date>2015-11-24 19:16:38.0 +0100</date>
+            <date>2015-11-24 19:57:46.0 +0100</date>
+            <date>2015-11-24 20:42:05.0 +0100</date>
+            <date>2015-11-24 20:20:10.0 +0100</date>
+            <date>2015-11-24 18:25:01.0 +0100</date>
+            <date>2015-11-24 18:25:01.0 +0100</date>
+            <date>2015-11-24 18:25:01.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46233" date="2015-11-24 00:00:00.0 +0100" track="Boden" raceCount="9" trackId="11" nbrOfRaces="0">
+         <bettypes length="8">
+            <string>LD</string>
+            <string>V4</string>
+            <string>V5</string>
+            <string>V3</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="8">
+            <date>2015-11-24 12:39:42.0 +0100</date>
+            <date>2015-11-24 12:19:40.0 +0100</date>
+            <date>2015-11-24 13:44:51.0 +0100</date>
+            <date>2015-11-24 14:20:48.0 +0100</date>
+            <date>2015-11-24 13:20:10.0 +0100</date>
+            <date>2015-11-24 12:19:40.0 +0100</date>
+            <date>2015-11-24 12:19:40.0 +0100</date>
+            <date>2015-11-24 12:19:40.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46238" date="2015-11-24 00:00:00.0 +0100" track="Axevalla" raceCount="11" trackId="8" nbrOfRaces="0">
+         <bettypes length="8">
+            <string>V64</string>
+            <string>DD</string>
+            <string>V4</string>
+            <string>V3</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="8">
+            <date>2015-11-24 19:25:00.0 +0100</date>
+            <date>2015-11-24 20:53:00.0 +0100</date>
+            <date>2015-11-24 20:09:00.0 +0100</date>
+            <date>2015-11-24 21:13:00.0 +0100</date>
+            <date>2015-11-24 20:31:00.0 +0100</date>
+            <date>2015-11-24 18:15:00.0 +0100</date>
+            <date>2015-11-24 18:15:00.0 +0100</date>
+            <date>2015-11-24 18:15:00.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46249" date="2015-11-24 00:00:00.0 +0100" track="Vincennes" raceCount="8" trackId="63" nbrOfRaces="0">
+         <bettypes length="5">
+            <string>V4</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="5">
+            <date>2015-11-24 20:24:05.0 +0100</date>
+            <date>2015-11-30 00:44:28.0 +0100</date>
+            <date>2015-11-24 20:24:05.0 +0100</date>
+            <date>2015-11-24 20:24:05.0 +0100</date>
+            <date>2015-11-24 20:24:05.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46262" date="2015-11-24 00:00:00.0 +0100" track="Forus" raceCount="9" trackId="81" nbrOfRaces="0">
+         <bettypes length="6">
+            <string>V65</string>
+            <string>V5</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="6">
+            <date>2015-11-24 18:59:00.0 +0100</date>
+            <date>2015-11-24 20:08:05.0 +0100</date>
+            <date>2015-11-24 18:34:02.0 +0100</date>
+            <date>2015-11-24 18:34:02.0 +0100</date>
+            <date>2015-11-24 18:34:02.0 +0100</date>
+            <date>2015-11-24 18:34:02.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46234" date="2015-11-25 00:00:00.0 +0100" track="Solvalla" raceCount="10" trackId="5" nbrOfRaces="0">
+         <bettypes length="8">
+            <string>V86</string>
+            <string>DD</string>
+            <string>V5</string>
+            <string>V3</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="6">
+            <date>2015-11-25 18:39:30.0 +0100</date>
+            <date>2015-11-25 21:02:55.0 +0100</date>
+            <date>2015-11-25 18:15:10.0 +0100</date>
+            <date>2015-11-25 18:15:10.0 +0100</date>
+            <date>2015-11-25 18:15:10.0 +0100</date>
+            <date>2015-11-25 18:15:10.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46235" date="2015-11-25 00:00:00.0 +0100" track="Bergsåker" raceCount="9" trackId="9" nbrOfRaces="0">
+         <bettypes length="8">
+            <string>V86</string>
+            <string>DD</string>
+            <string>V4</string>
+            <string>V3</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="6">
+            <date>2015-11-25 18:50:44.0 +0100</date>
+            <date>2015-11-25 20:51:28.0 +0100</date>
+            <date>2015-11-25 18:29:05.0 +0100</date>
+            <date>2015-11-25 18:29:05.0 +0100</date>
+            <date>2015-11-25 18:29:05.0 +0100</date>
+            <date>2015-11-25 18:29:05.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46237" date="2015-11-25 00:00:00.0 +0100" track="Täby Galopp" raceCount="6" trackId="35" nbrOfRaces="0">
+         <bettypes length="6">
+            <string>LD</string>
+            <string>V4</string>
+            <string>T</string>
+            <string>K</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="6">
+            <date>2015-11-25 12:41:10.0 +0100</date>
+            <date>2015-11-25 12:19:25.0 +0100</date>
+            <date>2015-11-25 13:25:49.0 +0100</date>
+            <date>2015-11-25 12:19:25.0 +0100</date>
+            <date>2015-11-25 12:19:25.0 +0100</date>
+            <date>2015-11-25 12:19:25.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46239" date="2015-11-25 00:00:00.0 +0100" track="Pori" raceCount="6" trackId="59" nbrOfRaces="0">
+         <bettypes length="4">
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="4">
+            <date>2015-11-25 12:06:42.0 +0100</date>
+            <date>2015-11-25 11:02:41.0 +0100</date>
+            <date>2015-11-25 11:02:41.0 +0100</date>
+            <date>2015-11-25 11:02:41.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46241" date="2015-11-25 00:00:00.0 +0100" track="Billund" raceCount="8" trackId="54" nbrOfRaces="0">
+         <bettypes length="6">
+            <string>V4</string>
+            <string>V5</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="6">
+            <date>2015-11-25 16:11:21.0 +0100</date>
+            <date>2015-11-25 15:36:26.0 +0100</date>
+            <date>2015-11-25 15:14:32.0 +0100</date>
+            <date>2015-11-25 15:14:32.0 +0100</date>
+            <date>2015-11-25 15:14:32.0 +0100</date>
+            <date>2015-11-25 15:14:32.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46251" date="2015-11-25 00:00:00.0 +0100" track="Vincennes" raceCount="9" trackId="63" nbrOfRaces="0">
+         <bettypes length="5">
+            <string>V4</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="5">
+            <date>2015-11-25 13:49:24.0 +0100</date>
+            <date>2015-11-25 13:49:24.0 +0100</date>
+            <date>2015-11-25 13:14:48.0 +0100</date>
+            <date>2015-11-25 13:14:48.0 +0100</date>
+            <date>2015-11-25 13:14:48.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46324" date="2015-11-25 00:00:00.0 +0100" track="Solvalla/Bergsåker" raceCount="2" trackId="40" nbrOfRaces="0">
+         <bettypes length="2">
+            <string>V86</string>
+            <string>DD</string>
+         </bettypes>
+         <bettypeStart length="2">
+            <date>2015-11-25 20:29:25.0 +0100</date>
+            <date>2015-11-25 21:39:31.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46243" date="2015-11-26 00:00:00.0 +0100" track="Åby" raceCount="11" trackId="6" nbrOfRaces="0">
+         <bettypes length="8">
+            <string>V64</string>
+            <string>DD</string>
+            <string>V4</string>
+            <string>V3</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="8">
+            <date>2015-11-26 19:24:56.0 +0100</date>
+            <date>2015-11-26 20:53:21.0 +0100</date>
+            <date>2015-11-26 20:09:16.0 +0100</date>
+            <date>2015-11-26 21:13:29.0 +0100</date>
+            <date>2015-11-26 20:31:13.0 +0100</date>
+            <date>2015-11-26 18:15:06.0 +0100</date>
+            <date>2015-11-26 18:15:06.0 +0100</date>
+            <date>2015-11-26 18:15:06.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46244" date="2015-11-26 00:00:00.0 +0100" track="Bollnäs" raceCount="9" trackId="12" nbrOfRaces="0">
+         <bettypes length="8">
+            <string>LD</string>
+            <string>V4</string>
+            <string>V5</string>
+            <string>V3</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="8">
+            <date>2015-11-26 12:39:44.0 +0100</date>
+            <date>2015-11-26 12:19:47.0 +0100</date>
+            <date>2015-11-26 13:44:52.0 +0100</date>
+            <date>2015-11-26 14:21:47.0 +0100</date>
+            <date>2015-11-26 13:22:02.0 +0100</date>
+            <date>2015-11-26 12:19:47.0 +0100</date>
+            <date>2015-11-26 12:19:47.0 +0100</date>
+            <date>2015-11-26 12:19:47.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46245" date="2015-11-26 00:00:00.0 +0100" track="Bjerke" raceCount="5" trackId="78" nbrOfRaces="0">
+         <bettypes length="5">
+            <string>V5</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="5">
+            <date>2015-11-26 13:38:59.0 +0100</date>
+            <date>2015-11-26 13:38:59.0 +0100</date>
+            <date>2015-11-26 13:38:59.0 +0100</date>
+            <date>2015-11-26 13:38:59.0 +0100</date>
+            <date>2015-11-26 13:38:59.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46247" date="2015-11-26 00:00:00.0 +0100" track="Klosterskogen" raceCount="8" trackId="77" nbrOfRaces="0">
+         <bettypes length="6">
+            <string>V65</string>
+            <string>V5</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="6">
+            <date>2015-11-26 18:49:47.0 +0100</date>
+            <date>2015-11-26 19:56:46.0 +0100</date>
+            <date>2015-11-26 18:49:47.0 +0100</date>
+            <date>2015-11-26 18:49:47.0 +0100</date>
+            <date>2015-11-26 18:49:47.0 +0100</date>
+            <date>2015-11-26 18:49:47.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46263" date="2015-11-26 00:00:00.0 +0100" track="Vincennes" raceCount="8" trackId="63" nbrOfRaces="0">
+         <bettypes length="5">
+            <string>V4</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="5">
+            <date>2015-11-26 13:49:10.0 +0100</date>
+            <date>2015-11-26 13:49:10.0 +0100</date>
+            <date>2015-11-26 13:49:10.0 +0100</date>
+            <date>2015-11-26 13:49:10.0 +0100</date>
+            <date>2015-11-26 13:49:10.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46264" date="2015-11-26 00:00:00.0 +0100" track="Australien" raceCount="9" trackId="51" nbrOfRaces="0">
+         <bettypes length="4">
+            <string>V4</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="4">
+            <date>2015-11-26 08:44:09.0 +0100</date>
+            <date>2015-11-26 08:16:02.0 +0100</date>
+            <date>2015-11-26 08:16:02.0 +0100</date>
+            <date>2015-11-26 08:16:02.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46265" date="2015-11-26 00:00:00.0 +0100" track="Sydafrika" raceCount="9" trackId="89" nbrOfRaces="0">
+         <bettypes length="4">
+            <string>T</string>
+            <string>K</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="4">
+            <date>2015-11-26 11:14:32.0 +0100</date>
+            <date>2015-11-26 11:14:32.0 +0100</date>
+            <date>2015-11-26 11:14:32.0 +0100</date>
+            <date>2015-11-26 11:14:32.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46246" date="2015-11-27 00:00:00.0 +0100" track="Kaustinen" raceCount="6" trackId="59" nbrOfRaces="0">
+         <bettypes length="4">
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="4">
+            <date>2015-11-27 12:00:20.0 +0100</date>
+            <date>2015-11-27 10:59:54.0 +0100</date>
+            <date>2015-11-27 10:59:54.0 +0100</date>
+            <date>2015-11-27 10:59:54.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46253" date="2015-11-27 00:00:00.0 +0100" track="Övrevoll" raceCount="7" trackId="79" nbrOfRaces="0">
+         <bettypes length="6">
+            <string>V4</string>
+            <string>V5</string>
+            <string>T</string>
+            <string>K</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="6">
+            <date>2015-11-27 16:39:06.0 +0100</date>
+            <date>2015-11-27 15:59:09.0 +0100</date>
+            <date>2015-11-27 15:34:26.0 +0100</date>
+            <date>2015-11-27 15:34:26.0 +0100</date>
+            <date>2015-11-27 15:34:26.0 +0100</date>
+            <date>2015-11-27 15:34:26.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46254" date="2015-11-27 00:00:00.0 +0100" track="Odense" raceCount="10" trackId="54" nbrOfRaces="0">
+         <bettypes length="6">
+            <string>V4</string>
+            <string>V5</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="6">
+            <date>2015-11-27 16:41:59.0 +0100</date>
+            <date>2015-11-27 16:05:56.0 +0100</date>
+            <date>2015-11-27 15:44:39.0 +0100</date>
+            <date>2015-11-27 15:44:39.0 +0100</date>
+            <date>2015-11-27 15:44:39.0 +0100</date>
+            <date>2015-11-27 15:44:39.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46256" date="2015-11-27 00:00:00.0 +0100" track="Solvalla" raceCount="9" trackId="5" nbrOfRaces="0">
+         <bettypes length="8">
+            <string>V65</string>
+            <string>LD</string>
+            <string>V4</string>
+            <string>V3</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="8">
+            <date>2015-11-27 12:44:49.0 +0100</date>
+            <date>2015-11-27 13:44:48.0 +0100</date>
+            <date>2015-11-27 13:24:41.0 +0100</date>
+            <date>2015-11-27 14:43:40.0 +0100</date>
+            <date>2015-11-27 14:24:50.0 +0100</date>
+            <date>2015-11-27 12:44:49.0 +0100</date>
+            <date>2015-11-27 12:44:49.0 +0100</date>
+            <date>2015-11-27 12:44:49.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46257" date="2015-11-27 00:00:00.0 +0100" track="Kalmar" raceCount="11" trackId="19" nbrOfRaces="0">
+         <bettypes length="7">
+            <string>V4</string>
+            <string>V5</string>
+            <string>V3</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="7">
+            <date>2015-11-27 19:10:47.0 +0100</date>
+            <date>2015-11-27 20:19:11.0 +0100</date>
+            <date>2015-11-27 21:41:28.0 +0100</date>
+            <date>2015-11-27 20:43:43.0 +0100</date>
+            <date>2015-11-27 18:25:20.0 +0100</date>
+            <date>2015-11-27 18:25:20.0 +0100</date>
+            <date>2015-11-27 18:25:20.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46258" date="2015-11-27 00:00:00.0 +0100" track="Romme" raceCount="11" trackId="23" nbrOfRaces="0">
+         <bettypes length="8">
+            <string>V64</string>
+            <string>DD</string>
+            <string>V4</string>
+            <string>V3</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="8">
+            <date>2015-11-27 19:24:36.0 +0100</date>
+            <date>2015-11-27 20:52:31.0 +0100</date>
+            <date>2015-11-27 20:08:56.0 +0100</date>
+            <date>2015-11-27 21:13:08.0 +0100</date>
+            <date>2015-11-27 20:30:54.0 +0100</date>
+            <date>2015-11-27 18:15:27.0 +0100</date>
+            <date>2015-11-27 18:15:27.0 +0100</date>
+            <date>2015-11-27 18:15:27.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46270" date="2015-11-27 00:00:00.0 +0100" track="Vincennes" raceCount="7" trackId="63" nbrOfRaces="0">
+         <bettypes length="5">
+            <string>V4</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="5">
+            <date>2015-11-27 19:54:16.0 +0100</date>
+            <date>2015-11-27 20:29:03.0 +0100</date>
+            <date>2015-11-27 19:54:16.0 +0100</date>
+            <date>2015-11-27 19:54:16.0 +0100</date>
+            <date>2015-11-27 19:54:16.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46271" date="2015-11-27 00:00:00.0 +0100" track="Australien" raceCount="10" trackId="51" nbrOfRaces="0">
+         <bettypes length="4">
+            <string>V4</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="4">
+            <date>2015-11-27 08:49:24.0 +0100</date>
+            <date>2015-11-27 08:19:08.0 +0100</date>
+            <date>2015-11-27 08:19:08.0 +0100</date>
+            <date>2015-11-27 08:19:08.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46282" date="2015-11-28 00:00:00.0 +0100" track="Jägersro" raceCount="12" trackId="7" nbrOfRaces="0">
+         <bettypes length="10">
+            <string>V75</string>
+            <string>DD</string>
+            <string>LD</string>
+            <string>V4</string>
+            <string>V5</string>
+            <string>V3</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="10">
+            <date>2015-11-28 16:20:16.0 +0100</date>
+            <date>2015-11-28 18:22:48.0 +0100</date>
+            <date>2015-11-28 15:07:40.0 +0100</date>
+            <date>2015-11-28 14:44:34.0 +0100</date>
+            <date>2015-11-28 17:03:39.0 +0100</date>
+            <date>2015-11-28 18:22:48.0 +0100</date>
+            <date>2015-11-28 15:54:37.0 +0100</date>
+            <date>2015-11-28 14:44:34.0 +0100</date>
+            <date>2015-11-28 14:44:34.0 +0100</date>
+            <date>2015-11-28 14:44:34.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46283" date="2015-11-28 00:00:00.0 +0100" track="Bollnäs" raceCount="10" trackId="12" nbrOfRaces="0">
+         <bettypes length="7">
+            <string>V4</string>
+            <string>V5</string>
+            <string>V3</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="7">
+            <date>2015-11-28 12:43:37.0 +0100</date>
+            <date>2015-11-28 11:58:55.0 +0100</date>
+            <date>2015-11-28 13:48:39.0 +0100</date>
+            <date>2015-11-28 13:05:38.0 +0100</date>
+            <date>2015-11-28 11:14:16.0 +0100</date>
+            <date>2015-11-28 11:14:16.0 +0100</date>
+            <date>2015-11-28 11:14:16.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46284" date="2015-11-28 00:00:00.0 +0100" track="Umåker" raceCount="10" trackId="27" nbrOfRaces="0">
+         <bettypes length="7">
+            <string>V65</string>
+            <string>V4</string>
+            <string>V3</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="7">
+            <date>2015-11-28 19:40:00.0 +0100</date>
+            <date>2015-11-28 20:20:00.0 +0100</date>
+            <date>2015-11-28 21:20:00.0 +0100</date>
+            <date>2015-11-28 20:40:00.0 +0100</date>
+            <date>2015-11-28 18:55:00.0 +0100</date>
+            <date>2015-11-28 18:55:00.0 +0100</date>
+            <date>2015-11-28 18:55:00.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46285" date="2015-11-28 00:00:00.0 +0100" track="Vincennes" raceCount="9" trackId="63" nbrOfRaces="0">
+         <bettypes length="5">
+            <string>V4</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="5">
+            <date>2015-11-28 15:07:05.0 +0100</date>
+            <date>2015-11-28 15:07:05.0 +0100</date>
+            <date>2015-11-28 13:29:03.0 +0100</date>
+            <date>2015-11-28 13:29:03.0 +0100</date>
+            <date>2015-11-28 13:29:03.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46286" date="2015-11-28 00:00:00.0 +0100" track="Bergen" raceCount="9" trackId="77" nbrOfRaces="0">
+         <bettypes length="5">
+            <string>V5</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="5">
+            <date>2015-11-28 21:06:35.0 +0100</date>
+            <date>2015-11-28 18:37:14.0 +0100</date>
+            <date>2015-11-28 18:37:14.0 +0100</date>
+            <date>2015-11-28 18:37:14.0 +0100</date>
+            <date>2015-11-28 18:37:14.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46252" date="2015-11-29 00:00:00.0 +0100" track="Örebro" raceCount="12" trackId="32" nbrOfRaces="0">
+         <bettypes length="10">
+            <string>V75</string>
+            <string>DD</string>
+            <string>LD</string>
+            <string>V4</string>
+            <string>V5</string>
+            <string>V3</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="10">
+            <date>2015-11-29 14:29:48.0 +0100</date>
+            <date>2015-11-29 16:23:19.0 +0100</date>
+            <date>2015-11-29 13:05:52.0 +0100</date>
+            <date>2015-11-29 12:44:47.0 +0100</date>
+            <date>2015-11-29 15:14:16.0 +0100</date>
+            <date>2015-11-29 16:23:19.0 +0100</date>
+            <date>2015-11-29 13:50:06.0 +0100</date>
+            <date>2015-11-29 12:44:47.0 +0100</date>
+            <date>2015-11-29 12:44:47.0 +0100</date>
+            <date>2015-11-29 12:44:47.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46261" date="2015-11-29 00:00:00.0 +0100" track="Leangen" raceCount="9" trackId="77" nbrOfRaces="0">
+         <bettypes length="6">
+            <string>V65</string>
+            <string>V5</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="6">
+            <date>2015-11-29 17:59:06.0 +0100</date>
+            <date>2015-11-29 19:07:22.0 +0100</date>
+            <date>2015-11-29 17:29:20.0 +0100</date>
+            <date>2015-11-29 17:29:20.0 +0100</date>
+            <date>2015-11-29 17:29:20.0 +0100</date>
+            <date>2015-11-29 17:29:20.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46266" date="2015-11-30 00:00:00.0 +0100" track="Mantorp" raceCount="4" trackId="22" nbrOfRaces="0">
+         <bettypes length="8">
+            <string>LD</string>
+            <string>V4</string>
+            <string>V5</string>
+            <string>V3</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="8">
+            <date>2015-11-30 12:39:45.0 +0100</date>
+            <date>2015-11-30 12:19:31.0 +0100</date>
+            <date>2015-11-30 13:44:40.0 +0100</date>
+            <date>2015-11-30 14:21:46.0 +0100</date>
+            <date>2015-11-30 13:21:45.0 +0100</date>
+            <date>2015-11-30 12:19:31.0 +0100</date>
+            <date>2015-11-30 12:19:31.0 +0100</date>
+            <date>2015-11-30 12:19:31.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46267" date="2015-11-30 00:00:00.0 +0100" track="Östersund" raceCount="11" trackId="33" nbrOfRaces="0">
+         <bettypes length="8">
+            <string>V64</string>
+            <string>DD</string>
+            <string>V4</string>
+            <string>V3</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="8">
+            <date>2015-11-30 19:24:49.0 +0100</date>
+            <date>2015-11-30 20:52:44.0 +0100</date>
+            <date>2015-11-30 20:09:00.0 +0100</date>
+            <date>2015-11-30 21:13:00.0 +0100</date>
+            <date>2015-11-30 20:30:46.0 +0100</date>
+            <date>2015-11-30 18:16:43.0 +0100</date>
+            <date>2015-11-30 18:16:43.0 +0100</date>
+            <date>2015-11-30 18:16:43.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46268" date="2015-11-30 00:00:00.0 +0100" track="Färjestad" raceCount="11" trackId="15" nbrOfRaces="0">
+         <bettypes length="7">
+            <string>V4</string>
+            <string>V5</string>
+            <string>V3</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="7">
+            <date>2015-11-30 19:23:08.0 +0100</date>
+            <date>2015-11-30 19:59:25.0 +0100</date>
+            <date>2015-11-30 21:21:00.0 +0100</date>
+            <date>2015-11-30 20:19:33.0 +0100</date>
+            <date>2015-11-30 18:28:11.0 +0100</date>
+            <date>2015-11-30 18:28:11.0 +0100</date>
+            <date>2015-11-30 18:28:11.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46272" date="2015-11-30 00:00:00.0 +0100" track="Jägersro Galopp" raceCount="9" trackId="34" nbrOfRaces="0">
+         <bettypes length="7">
+            <string>V4</string>
+            <string>V5</string>
+            <string>V3</string>
+            <string>T</string>
+            <string>K</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="7">
+            <date>2015-11-30 16:19:42.0 +0100</date>
+            <date>2015-11-30 15:09:03.0 +0100</date>
+            <date>2015-11-30 17:03:13.0 +0100</date>
+            <date>2015-11-30 16:41:12.0 +0100</date>
+            <date>2015-11-30 14:44:01.0 +0100</date>
+            <date>2015-11-30 14:44:01.0 +0100</date>
+            <date>2015-11-30 14:44:01.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46291" date="2015-11-30 00:00:00.0 +0100" track="Sydafrika" raceCount="8" trackId="89" nbrOfRaces="0">
+         <bettypes length="4">
+            <string>T</string>
+            <string>K</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="4">
+            <date>2015-11-30 12:04:15.0 +0100</date>
+            <date>2015-11-30 12:04:15.0 +0100</date>
+            <date>2015-11-30 12:04:15.0 +0100</date>
+            <date>2015-11-30 12:04:15.0 +0100</date>
+         </bettypeStart>
+      </trackInfo>
+      <trackInfo id="46298" date="2015-11-30 00:00:00.0 +0100" track="Vincennes" raceCount="8" trackId="63" nbrOfRaces="0">
+         <bettypes length="5">
+            <string>V4</string>
+            <string>T</string>
+            <string>TV</string>
+            <string>V</string>
+            <string>P</string>
+         </bettypes>
+         <bettypeStart length="5">
+            <date>2015-11-30 13:49:02.0 +0100</date>
+            <date>2015-11-30 13:49:02.0 +0100</date>
+            <date>2015-11-30 13:49:02.0 +0100</date>
+            <date>2015-11-30 13:49:02.0 +0100</date>
+            <date>2015-11-30 13:49:02.0 +0100</date>
          </bettypeStart>
       </trackInfo>
    </tracks>
