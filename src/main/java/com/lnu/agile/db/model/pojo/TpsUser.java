@@ -1,5 +1,5 @@
 package com.lnu.agile.db.model.pojo;
-// Generated Nov 30, 2015 5:44:23 PM by Hibernate Tools 4.3.1
+// Generated Dec 2, 2015 2:28:02 PM by Hibernate Tools 4.3.1
 
 
 
@@ -9,34 +9,41 @@ package com.lnu.agile.db.model.pojo;
 public class TpsUser  implements java.io.Serializable {
 
 
-     private Integer userid;
+     private Integer userId;
      private String userEmail;
-     private Integer userStatus;
+     private boolean userConfirmed;
+     private String userConfirmtoken;
      private String userPassword;
-     private String userName;
+     private String userAccountname;
+     private String userFisrtname;
+     private String userLastname;
      private String userPhone;
 
     public TpsUser() {
     }
 
 	
-    public TpsUser(String userEmail) {
+    public TpsUser(String userEmail, boolean userConfirmed) {
         this.userEmail = userEmail;
+        this.userConfirmed = userConfirmed;
     }
-    public TpsUser(String userEmail, Integer userStatus, String userPassword, String userName, String userPhone) {
+    public TpsUser(String userEmail, boolean userConfirmed, String userConfirmtoken, String userPassword, String userAccountname, String userFisrtname, String userLastname, String userPhone) {
        this.userEmail = userEmail;
-       this.userStatus = userStatus;
+       this.userConfirmed = userConfirmed;
+       this.userConfirmtoken = userConfirmtoken;
        this.userPassword = userPassword;
-       this.userName = userName;
+       this.userAccountname = userAccountname;
+       this.userFisrtname = userFisrtname;
+       this.userLastname = userLastname;
        this.userPhone = userPhone;
     }
    
-    public Integer getUserid() {
-        return this.userid;
+    public Integer getUserId() {
+        return this.userId;
     }
     
-    public void setUserid(Integer userid) {
-        this.userid = userid;
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
     public String getUserEmail() {
         return this.userEmail;
@@ -45,12 +52,19 @@ public class TpsUser  implements java.io.Serializable {
     public void setUserEmail(String userEmail) {
         this.userEmail = userEmail;
     }
-    public Integer getUserStatus() {
-        return this.userStatus;
+    public boolean isUserConfirmed() {
+        return this.userConfirmed;
     }
     
-    public void setUserStatus(Integer userStatus) {
-        this.userStatus = userStatus;
+    public void setUserConfirmed(boolean userConfirmed) {
+        this.userConfirmed = userConfirmed;
+    }
+    public String getUserConfirmtoken() {
+        return this.userConfirmtoken;
+    }
+    
+    public void setUserConfirmtoken(String userConfirmtoken) {
+        this.userConfirmtoken = userConfirmtoken;
     }
     public String getUserPassword() {
         return this.userPassword;
@@ -59,12 +73,26 @@ public class TpsUser  implements java.io.Serializable {
     public void setUserPassword(String userPassword) {
         this.userPassword = userPassword;
     }
-    public String getUserName() {
-        return this.userName;
+    public String getUserAccountname() {
+        return this.userAccountname;
     }
     
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUserAccountname(String userAccountname) {
+        this.userAccountname = userAccountname;
+    }
+    public String getUserFisrtname() {
+        return this.userFisrtname;
+    }
+    
+    public void setUserFisrtname(String userFisrtname) {
+        this.userFisrtname = userFisrtname;
+    }
+    public String getUserLastname() {
+        return this.userLastname;
+    }
+    
+    public void setUserLastname(String userLastname) {
+        this.userLastname = userLastname;
     }
     public String getUserPhone() {
         return this.userPhone;

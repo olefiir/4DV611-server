@@ -22,6 +22,7 @@ public class RestURIConstants {
         
         public static final String USER = "/users";         //get,post
         public static final String USER_ID = "/users/{id}"; // three actions: put,get,delete
+        public static final String USER_CONFIRM = "/users/confirmation/{randomtoken}";
         public static final String CREATE_USER = "/users/create/{email}/{password}/{confirmPassword}";
         
         

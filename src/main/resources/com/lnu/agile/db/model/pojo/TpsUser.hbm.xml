@@ -1,24 +1,33 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated Nov 30, 2015 5:44:23 PM by Hibernate Tools 4.3.1 -->
+<!-- Generated Dec 2, 2015 2:28:02 PM by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
     <class name="com.lnu.agile.db.model.pojo.TpsUser" table="tps_user" catalog="tipsters" optimistic-lock="version">
-        <id name="userid" type="java.lang.Integer">
-            <column name="userid" />
+        <id name="userId" type="java.lang.Integer">
+            <column name="user_id" />
             <generator class="identity" />
         </id>
         <property name="userEmail" type="string">
             <column name="user_email" length="50" not-null="true" />
         </property>
-        <property name="userStatus" type="java.lang.Integer">
-            <column name="user_status" />
+        <property name="userConfirmed" type="boolean">
+            <column name="user_confirmed" not-null="true" />
+        </property>
+        <property name="userConfirmtoken" type="string">
+            <column name="user_confirmtoken" length="54" />
         </property>
         <property name="userPassword" type="string">
             <column name="user_password" length="50" />
         </property>
-        <property name="userName" type="string">
-            <column name="user_name" length="50" />
+        <property name="userAccountname" type="string">
+            <column name="user_accountname" length="50" />
+        </property>
+        <property name="userFisrtname" type="string">
+            <column name="user_fisrtname" length="50" />
+        </property>
+        <property name="userLastname" type="string">
+            <column name="user_lastname" length="50" />
         </property>
         <property name="userPhone" type="string">
             <column name="user_phone" length="50" />

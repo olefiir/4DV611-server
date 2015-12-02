@@ -21,8 +21,9 @@
             <b>User registration related:</b> <br>
             
             Create users; Get all users = "/users";<br>
-                Temporarily json parameters in order for test: email,password,confirmPassword
-                     respond: 0 failed; 1 successful
+                 &nbsp&nbsp&nbsp&nbsp<tab>json parameters in order: email,password,confirmPassword</tab><br>
+                 &nbsp&nbsp&nbsp&nbsp<tab>response: email</tab><br><br>
+            Confirmation update: "/users/confirmation/{randomtoken}";
 
         </P> 
             

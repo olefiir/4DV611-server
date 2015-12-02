@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.lnu.agile.test;
+package com.lnu.agile.controller;
 
 import com.lnu.agile.mail.ApplicationMailer;
 import org.springframework.context.ApplicationContext;
