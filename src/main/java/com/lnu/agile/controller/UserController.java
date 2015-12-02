@@ -5,6 +5,7 @@
  */
 package com.lnu.agile.controller;
 
+import com.lambdaworks.crypto.SCryptUtil;
 import com.lnu.agile.config.RestURIConstants;
 import com.lnu.agile.db.model.dao.TpsUserDAO;
 import com.lnu.agile.db.model.pojo.TpsUser;
@@ -62,9 +63,10 @@ public class UserController {
     public @ResponseBody String userConfirm(@PathVariable("randomtoken") String randomtoken) {
         
         String webpage="";
-        if (TpsUserDAO.updateUsersConfirmed(randomtoken) == 0) {
+        int result = TpsUserDAO.updateUsersConfirmed(randomtoken);
+        if (result == 0) {
             webpage = "<html><head><title>Results</title></head><body>Failed! user already has been activated!</body></html>";
-        } else if (TpsUserDAO.updateUsersConfirmed(randomtoken) == 2) {
+        } else if (result == 2) {
             webpage = "<html><head><title>Results</title></head><body>Failed! service not available!</body></html>";
         } else {
             webpage = "<html><head><title>Results</title></head><body>Congratulations! The account has been activated!</body></html>";
@@ -86,7 +88,11 @@ public class UserController {
             if ( reguser.getPassword().equals(reguser.getConfirmPassword()) ) {
                 TpsUser user = new TpsUser(); // increment of userid is created in table
                 user.setUserEmail(reguser.getEmail());
-                user.setUserPassword(reguser.getPassword());
+                
+                //Using SCrypt to encode password 
+                String generatedSecuredPasswordHash = SCryptUtil.scrypt(reguser.getPassword(), 16, 16, 16);
+                //Sboolean matched = SCryptUtil.check(reguser.getPassword(), generatedSecuredPasswordHash);
+                user.setUserPassword(generatedSecuredPasswordHash);
                 
                 //random token
                 String randomToken = "";
@@ -108,11 +114,12 @@ public class UserController {
                 
                 user.setUserConfirmtoken(randomToken);
                
+                int result = TpsUserDAO.insertUser(user);
             
-                if (TpsUserDAO.insertUser(user)==0) {
+                if (result==0) {
                     response.setStatus(403);
                     return null;
-                } else if (TpsUserDAO.insertUser(user)==2) {
+                } else if (result==2) {
                     response.setStatus(500);
                     return null;
 
