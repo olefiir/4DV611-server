@@ -61,13 +61,13 @@ public class UserController {
     @RequestMapping(value = RestURIConstants.USER_CONFIRM, method = RequestMethod.GET)
     public @ResponseBody String userConfirm(@PathVariable("randomtoken") String randomtoken) {
         
-        String webpage="<html><head>Results</head><body>Congratulations! The account has been activated!</body></html>";
+        String webpage="";
         if (TpsUserDAO.updateUsersConfirmed(randomtoken) == 0) {
-            
+            webpage = "<html><head><title>Results</title></head><body>Failed! user already has been activated!</body></html>";
         } else if (TpsUserDAO.updateUsersConfirmed(randomtoken) == 2) {
-            
+            webpage = "<html><head><title>Results</title></head><body>Failed! service not available!</body></html>";
         } else {
-            
+            webpage = "<html><head><title>Results</title></head><body>Congratulations! The account has been activated!</body></html>";
         }
         return webpage;
     }
@@ -117,15 +117,15 @@ public class UserController {
                     return null;
 
                 } else {
-//                    ApplicationContext context = new ClassPathXmlApplicationContext("servlet-context.xml");
-//                    
-//                    //Get the mailer instance
-//                    ApplicationMailer sm =  (ApplicationMailer) context.getBean("mailService");
-//                    
-//                    String to = "xuebo.sun@gmail.com";
-//                    String subject = "activate";
-//                    String body = "https://enigmatic-reaches-6021.herokuapp.com/users/u/"+randomToken;
-//                    sm.sendMail(to, subject, body);
+                    ApplicationContext context = new ClassPathXmlApplicationContext("servlet-context.xml");
+                    
+                    //Get the mailer instance
+                    ApplicationMailer sm =  (ApplicationMailer) context.getBean("mailService");
+                    
+                    String to = reguser.getEmail();
+                    String subject = "Activate link:";
+                    String body = "https://enigmatic-reaches-6021.herokuapp.com/users/confirmation/"+randomToken;
+                    sm.sendMail(to, subject, body);
 
                     response.setStatus(200);
                     TpsUser userResponse = new TpsUser(); 
