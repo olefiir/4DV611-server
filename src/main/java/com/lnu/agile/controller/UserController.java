@@ -132,8 +132,7 @@ public class UserController {
                     userResponse.setUserEmail(reguser.getEmail());
                     return userResponse;
                 }
- 
-                
+
             } else {
                 response.setStatus(400);
                 return null;
