@@ -25,6 +25,6 @@ public class RestURIConstants {
         public static final String USER_CONFIRM = "/users/confirmation/{randomtoken}";
         public static final String CREATE_USER = "/users/create/{email}/{password}/{confirmPassword}";
         
-        
+        public static final String AUTH = "/auth/{email}/{password}";  
         
 }

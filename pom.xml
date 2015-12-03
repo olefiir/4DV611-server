@@ -177,7 +177,13 @@
                     <groupId>org.springframework</groupId>  
                     <artifactId>spring-jdbc</artifactId>  
                     <version>${org.springframework-version}</version>  
-                </dependency> 
+                </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.5.1</version>
+            <type>jar</type>
+        </dependency>
     </dependencies>
     <build>
         <plugins>

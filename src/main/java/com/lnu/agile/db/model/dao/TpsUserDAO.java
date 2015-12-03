@@ -8,9 +8,12 @@ package com.lnu.agile.db.model.dao;
 import java.util.List;
 import com.lnu.agile.db.model.pojo.TpsUser;
 import com.lnu.agile.db.model.util.HibernateUtil;
+import java.util.Collection;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import static org.hibernate.criterion.Expression.sql;
+import org.hibernate.criterion.Restrictions;
 
 /**
  *
@@ -85,4 +88,30 @@ public class TpsUserDAO {
         
     }
     
+    public static TpsUser findUserByEmail(String userEmail) {
+        try {
+            
+            return new TpsUser();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+        
+    }
+    
+    public static List checkUserByEmail(String userEmail, String password) {
+        try {
+            //return HibernateUtil.getSessionFactory().openSession().getCurrentSession()
+                return HibernateUtil.getSessionFactory().openSession()
+                .createQuery("from TpsUser where userEmail=? and userPassword=?")
+                .setParameter(0, userEmail)
+                .setParameter(1, password)
+                .list();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+
+    }
+
 }
