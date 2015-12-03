@@ -15,6 +15,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.Resource;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -25,12 +26,15 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * @author olefir
  */
+
+
 @RestController
 public class TrackController {
     //trmporary location!
     private final String PATH = "classpath:trackInfoArray.xml";
     private static final Logger logger = LoggerFactory.getLogger(TrackController.class);
 
+    
     @RequestMapping(value = RestURIConstants.GET_ALL_TRACK, method = RequestMethod.GET, headers="Accept=application/json")
     public TrackInfoArray getAllTracks() {
         try {
