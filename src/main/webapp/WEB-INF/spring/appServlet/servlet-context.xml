@@ -28,7 +28,7 @@
 				<beans:ref bean="jsonMessageConverter"/>
 			</beans:list>
 		</beans:property>
-	</beans:bean>
+	</beans:bean>  
         
         <beans:bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
 		<beans:property name="host" value="smtp.gmail.com" />
@@ -47,7 +47,6 @@
 		</beans:property>
 	</beans:bean>
 	
-	<!-- Configure bean to convert JSON to POJO and vice versa -->
 	<beans:bean id="jsonMessageConverter" class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
 	</beans:bean>	
 	
