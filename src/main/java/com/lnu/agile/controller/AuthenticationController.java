@@ -81,8 +81,8 @@ public class AuthenticationController {
     }
 
     @RequestMapping(value = "/test", method = RequestMethod.POST)
-    @ResponseBody
-    public  String update(@RequestBody TestUser test) {
+    
+    public @ResponseBody String update(@RequestBody TestUser test) {
 
         return "test";
     }
