@@ -12,15 +12,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 public class HomeController {
-	
-	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
-	
-        
-        @RequestMapping(value = "/")
-	public String home(Locale locale, Model model) {
-		logger.info("Welcome!", locale);
-		
-		return "home";
-	}
-	
+
+    private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+
+    @RequestMapping(value = "/")
+    public String home(Locale locale, Model model) {
+        logger.info("Welcome!", locale);
+
+        return "home";
+    }
+
 }

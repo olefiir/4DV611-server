@@ -1,36 +1,35 @@
-<?xml version="1.0"?>
-<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
-"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <!-- Generated Dec 2, 2015 2:28:02 PM by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-    <class name="com.lnu.agile.db.model.pojo.TpsUser" table="tps_user" catalog="tipsters" optimistic-lock="version">
-        <id name="userId" type="java.lang.Integer">
-            <column name="user_id" />
-            <generator class="identity" />
-        </id>
-        <property name="userEmail" type="string">
-            <column name="user_email" length="50" not-null="true" />
-        </property>
-        <property name="userConfirmed" type="boolean">
-            <column name="user_confirmed" not-null="true" />
-        </property>
-        <property name="userConfirmtoken" type="string">
-            <column name="user_confirmtoken" length="54" />
-        </property>
-        <property name="userPassword" type="string">
-            <column name="user_password" length="50" />
-        </property>
-        <property name="userAccountname" type="string">
-            <column name="user_accountname" length="50" />
-        </property>
-        <property name="userFisrtname" type="string">
-            <column name="user_fisrtname" length="50" />
-        </property>
-        <property name="userLastname" type="string">
-            <column name="user_lastname" length="50" />
-        </property>
-        <property name="userPhone" type="string">
-            <column name="user_phone" length="50" />
-        </property>
-    </class>
+  <class catalog="tipsters" name="com.lnu.agile.model.TpsUser" optimistic-lock="version" table="tps_user">
+    <id name="userId" type="java.lang.Integer">
+      <column name="user_id"/>
+      <generator class="identity"/>
+    </id>
+    <property name="userEmail" type="string">
+      <column length="50" name="user_email" not-null="true"/>
+    </property>
+    <property name="userConfirmed" type="boolean">
+      <column name="user_confirmed" not-null="true"/>
+    </property>
+    <property name="userConfirmtoken" type="string">
+      <column length="54" name="user_confirmtoken"/>
+    </property>
+    <property name="userPassword" type="string">
+      <column length="50" name="user_password"/>
+    </property>
+    <property name="userAccountname" type="string">
+      <column length="50" name="user_accountname"/>
+    </property>
+    <property name="userFisrtname" type="string">
+      <column length="50" name="user_fisrtname"/>
+    </property>
+    <property name="userLastname" type="string">
+      <column length="50" name="user_lastname"/>
+    </property>
+    <property name="userPhone" type="string">
+      <column length="50" name="user_phone"/>
+    </property>
+  </class>
 </hibernate-mapping>
