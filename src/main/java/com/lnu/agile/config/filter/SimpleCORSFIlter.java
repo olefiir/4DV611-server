@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.lnu.agile.config;
+package com.lnu.agile.config.filter;
 import javax.servlet.Filter;
 import java.io.IOException;
 import javax.servlet.FilterChain;

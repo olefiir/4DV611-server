@@ -111,27 +111,39 @@ public class UserDao implements UserDaoInterface<TpsUser, String> {
         Query query = getCurrentSession().
                 createQuery("from TpsUser where user_email = :user_email");
         query.setParameter("user_email", email);
-        
+
         if (query.list().isEmpty()) {
             return null;
         } else {
             return (TpsUser) query.list().get(0);
         }
     }
-    
+
     public TpsUser findByEmailPassword(String email, String password) {
         Query query = getCurrentSession().
                 createQuery("from TpsUser where user_email = :user_email and user_password = :user_password");
         query.setParameter("user_email", email);
         query.setParameter("user_password", password);
+
+        if (!query.list().isEmpty()) {
+            return (TpsUser) query.list().get(0);
+        } else {
+            return null;
+        }
+    }
+
+    public TpsUser findByEmailId(String email, String id) {
+        Query query = getCurrentSession().
+                createQuery("from TpsUser where user_email = :user_email and user_id = :user_id");
+        query.setParameter("user_email", email);
+        query.setParameter("user_id", id);
         return (TpsUser) query.list().get(0);
     }
-    
+
     public TpsUser findByToken(String token) {
         Query query = getCurrentSession().
                 createQuery("from TpsUser where user_confirmtoken = :user_confirmtoken");
         query.setParameter("user_confirmtoken", token);
         return (TpsUser) query.list().get(0);
     }
-
 }

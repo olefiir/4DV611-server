@@ -6,15 +6,14 @@
 package com.lnu.agile.controller;
 
 import com.lnu.agile.config.RestURIConstants;
-import com.lnu.agile.dao.UserService;
 import com.lnu.agile.model.TpsUser;
+import com.lnu.agile.security.token.TokenAuthenticationService;
+import com.lnu.agile.security.AuthUserService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.SignatureAlgorithm;
 import javax.servlet.http.HttpServletResponse;
 
 /**
@@ -24,18 +23,15 @@ import javax.servlet.http.HttpServletResponse;
 @RestController
 public class AuthenticationController {
 
-    //temp variable. should be changed
-    private final String secret = "agilehorses";
-
     @RequestMapping(value = RestURIConstants.AUTH, method = RequestMethod.POST)
     public @ResponseBody
-    String createTokenForUser(@RequestBody User reguser, HttpServletResponse response) {
-        TpsUser user = new UserService().findByEmailPassword(reguser.getEmail(), reguser.getPassword());
-
-        return Jwts.builder()
-                .setSubject(user.getUserId().toString())
-                .signWith(SignatureAlgorithm.HS512, secret)
-                .compact();
+    String createTokenForUser(@RequestBody User user, HttpServletResponse response) {
+        TpsUser authUser = new AuthUserService().loadUserByUsername(user.getEmail(), user.getPassword());
+        if (authUser != null) {
+            return new TokenAuthenticationService().addAuthentication(response, authUser);
+        } else {
+            return "User isn't found";
+        }
     }
 }
 
@@ -51,5 +47,4 @@ class User {
     public String getPassword() {
         return password;
     }
-
 }

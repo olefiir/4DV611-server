@@ -14,11 +14,17 @@ import java.util.List;
  * @param <T>
  * @param <Id>
  */
-public interface UserDaoInterface <T, Id extends Serializable>{
+public interface UserDaoInterface<T, Id extends Serializable> {
+
     public boolean persist(T entity);
+
     public void update(T entity);
+
     public T findById(Id id);
+
     public void delete(T entity);
+
     public List<T> findAll();
+
     public void deleteAll();
 }

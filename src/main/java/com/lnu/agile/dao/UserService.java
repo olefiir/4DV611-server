@@ -47,7 +47,14 @@ public class UserService {
         userDao.closeCurrentSession();
         return user;
     }
-    
+
+    public TpsUser findByEmailId(String email, String id) {
+        userDao.openCurrentSession();
+        TpsUser user = userDao.findByEmailId(email, id);
+        userDao.closeCurrentSession();
+        return user;
+    }
+
     public TpsUser findByToken(String token) {
         userDao.openCurrentSession();
         TpsUser user = userDao.findByToken(token);
